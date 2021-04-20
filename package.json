@@ -1,13 +1,13 @@
 {
-	"name": "compounder",
+	"name": "react-starter-project",
 	"version": "1.0.0",
-	"description": "",
+	"description": "A simple React based starter template to help you launch your next project.",
 	"main": "src/index.js",
 	"scripts": {
 		"build": "./node_modules/.bin/webpack",
 		"start": "./node_modules/.bin/webpack serve --open"
 	},
-	"author": "Gabriel Dubé",
+	"author": "",
 	"license": "ISC",
 	"dependencies": {
 		"react": "^17.0.2",
