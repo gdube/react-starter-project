@@ -25,9 +25,9 @@ build
   - index.html
 src
   - components
-   - Page
-     - Page.jsx
-     - Page.module.scss
+   - App
+     - App.jsx
+     - App.scss
   - index.html
   - index.js
 ```
