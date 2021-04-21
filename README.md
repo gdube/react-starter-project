@@ -9,7 +9,7 @@ The template uses Webpack 5 to compile React, JSX and SASS into a `build` direct
 3. Run `npm install` to install the node modules needed to run this project.
 4. Compile your project, watch for updates and automatically display changes in your browser using the following command:
 ```
-npm run start
+npm run watch
 ```
 
 ### Deploying
@@ -21,13 +21,14 @@ npm run build
 ### Directory structure
 ```
 build
-  - bundle.js
   - index.html
+  - main.css
+  - main.js
 src
   - components
    - App
      - App.jsx
-     - App.scss
+     - App.module.scss
   - index.html
   - index.js
 ```

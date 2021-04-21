@@ -1,10 +1,10 @@
 import React from 'react';
 
-import './App.scss';
+import styles from './App.module.scss';
 
 function App() {
 	return (
-		<div className="container">
+		<div className={styles.Container}>
 			<h1>Hello World!</h1>
 		</div>
 	)
